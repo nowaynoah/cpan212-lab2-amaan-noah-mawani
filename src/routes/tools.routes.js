@@ -35,7 +35,11 @@ toolsRouter.get('/', (req, res) => {
     res.json({ data: tool });
   });
 
-// TODO (you): STEP 5. POST /api/tools adds a tool.
+  toolsRouter.post('/', validateTool, (req, res) => {
+    const tool = { id: randomUUID(), ...req.body };
+    tools.push(tool);
+    res.status(201).json({ data: tool });
+  });
 
 // TODO (you): STEP 6. PUT /api/tools/:id changes a tool.
 
