@@ -1,6 +1,7 @@
 # Tool Library API
 
-<!-- Replace this line with one or two sentences about the project in your own words. -->
+## About
+A REST API for a tool library that supports listing, filtering, adding, updating, and deleting tools with validation on every field. 
 
 Live: <!-- your Render address, for example https://cpan212-lab2-jane-doe.onrender.com/api/tools -->
 
@@ -34,4 +35,4 @@ This tries every route and prints which checks pass.
 
 ## AI use
 
-<!-- List each AI tool you used and what you used it for, or write "No AI tools used." -->
+Does VSC's built-in IntelliSense count? If so, then really just for any syntax errors I made. Other than that, this was more or less filling in the blanks on code that was already provided in the instructions, so no AI use was needed. 
